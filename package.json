@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -10,6 +11,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@reduxjs/toolkit": "^2.3.0"
+    "@reduxjs/toolkit": "^2.3.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-replace": "^6.0.1",
+    "rollup": "^4.24.4"
   }
 }
