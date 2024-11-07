@@ -4,8 +4,8 @@ import replace from "@rollup/plugin-replace"
 export default {
 	input: "src/js/app.mjs",
 	output: {
-		file: "src/js/app.build.mjs",
-		format: "esm"
+		file: "src/js/app.build.js",
+		format: "es"
 	},
 	plugins: [
 		nodeResolve(),
