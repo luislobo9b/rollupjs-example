@@ -5,7 +5,7 @@ export default {
 	input: "src/js/app.mjs",
 	output: {
 		file: "src/js/app.build.js",
-		format: "es"
+		format: "esm"
 	},
 	plugins: [
 		nodeResolve(),
